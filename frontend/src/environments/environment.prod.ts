@@ -1,4 +1,5 @@
 export const environment = {
   production: true,
-    apiUrl: 'https://deadline-backend.vercel.app/api'  
+    apiUrl: 'https://deadlinebackend.vercel.app/'  
+
 };
