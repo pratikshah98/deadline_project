@@ -5,7 +5,7 @@ npm init -y
 npm install express cors
 
 # Create index.js (manually or copy-paste the server code)
-node index.js   # Runs on http://localhost:3000
+node server.js   # Runs on http://localhost:3000
 
 
 # ==== FRONTEND SETUP ====
@@ -29,7 +29,7 @@ cd ..
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/YOUR_USERNAME/deadline.git
+git remote add origin https://github.com/pratikshah98/deadline_project.git
 git push -u origin master
 
 
