@@ -4,7 +4,7 @@ const app = express();
 app.use(cors());
 
 // Fixed deadline
-const deadline = new Date('2025-05-02T23:59:59Z');
+const deadline = new Date('2025-05-31T23:59:59Z');
 
 app.get('/api/deadline', (req, res) => {
   const now = new Date();
